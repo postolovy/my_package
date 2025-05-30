@@ -3,8 +3,8 @@
 <package format="3">
   <name>my_package</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="postolovy@todo.todo">postolovy</maintainer>
+  <description>My first package</description>
+  <maintainer email="postolovvy@gmail.com">postolovy</maintainer>
   <license>Apache-2.0</license>
 
 
@@ -12,6 +12,9 @@
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+
+  <exec_depend>demo_nodes_cpp</exec_depend>
+  <exec_depend>demo_nodes_py</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
